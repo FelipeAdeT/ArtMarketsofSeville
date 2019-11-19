@@ -1,1 +1,3 @@
+---
 These Jupyter Notebooks detail the code employed in the development of the data included in the database using Natural Language Processing. The base model employed was Spacy's medium Spanish model (es-core-news-ml), which was originally trained on news and Wikiner data. We trained it on a subset of our own texts to improve results and modified the pipeline to improve results on early modern Spanish.
+---
