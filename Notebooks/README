@@ -1,8 +1,7 @@
----
+## Jupyter Notebooks Folder
 These Jupyter Notebooks detail the code employed in the development of the data included in the database using Natural Language Processing. The base model employed was Spacy's medium Spanish model (es-core-news-ml), which was originally trained on news and Wikiner data. We trained it on a subset of our own texts to improve results and modified the pipeline to improve results on early modern Spanish.
----
 
-**Recommended Order**
+## Recommended Order
 
 These notebooks each work through a phase of the NER process. Though they can be read independently, a beginner might need to follow a certain order to understand the process. We recommend:
 
