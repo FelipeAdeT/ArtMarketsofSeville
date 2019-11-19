@@ -6,6 +6,9 @@
 
 During the 16th and 17th centuries, Seville, Spain was the locus of the world's largest trade flows. From 1503 to 1717, it housed the Casa de Contratación, the institution that centralized trade between Europe and the Spanish colonies in the Americas. As a result, the city ballooned in wealth and population; with the specialization in trade, Sevillian artists started exporting their works abroad. 
 
+**Uses**
+This github repository is meant as a standalone project, but also as a resource for those conducting similar Humanities initiatives. If you are working on archival documentation in historical languages and ways of extracting their information computationally through NER, this provides a model and resources that can be tailored to your needs. 
+
 **Data Source**
 
 This database compiles information from 20 volumes of sources published throughout the 19th and 20th centuries in Seville. They compile data from several Sevillian archives on the activities of various local painters, sculptors, gilders, stonemasons, and architects, among other less common occupations. The books were OCR scanned, corrected for mistakes, and then divided into texts using OpenRefine. Texts are stored as individual records within the database and usually (though not always) refer to a single archival document, either in transcription or summarized form. These texts are often accompanied by footnotes and comments that are included as an attribute of the text in the database. Where possible, we have included the archival reference to the original source, to the extent provided by the researchers that edited the published volumes.
@@ -26,5 +29,8 @@ This Github repository is meant to record the process of development of the data
 
 **Proprietary Notice**
 
-This project was developed by Felipe Álvarez de Toledo as part of a Ph.D. dissertation in the department of Art, Art History and Visual Studies at Duke University and as part of DALMI, the Duke, Art, Law and Markets Initiative.
+This project was developed by Felipe Álvarez de Toledo as part of a Ph.D. dissertation in the department of Art, Art History and Visual Studies at Duke University and as part of DALMI, the Duke, Art, Law and Markets Initiative. 
 
+**License**
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This project is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
