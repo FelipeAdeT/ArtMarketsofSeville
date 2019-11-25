@@ -2,6 +2,11 @@
 
 ---
 
+<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+            
 **Background**
 
 During the 16th and 17th centuries, Seville, Spain was the locus of the world's largest trade flows. From 1503 to 1717, it housed the Casa de Contratación, the institution that centralized trade between Europe and the Spanish colonies in the Americas. As a result, the city ballooned in wealth and population; with the specialization in trade, Sevillian artists started exporting their works abroad. 
