@@ -30,6 +30,7 @@ This Github repository is meant to record the process of development of the data
 
 [Document Viewer](DocumentViewer.html)
 [NER Resources](NER Resources.md)
+[Research Completeness](Research Completeness.html)
 
 **Proprietary Notice**
 
