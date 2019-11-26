@@ -29,6 +29,7 @@ The database is not only a repository of documents, but meant to dissect the inf
 This Github repository is meant to record the process of development of the database, including code used, training sets, output and further resources.
 
 [Document Viewer](DocumentViewer.html)
+[NER Resources](NER Resources.md)
 
 **Proprietary Notice**
 
