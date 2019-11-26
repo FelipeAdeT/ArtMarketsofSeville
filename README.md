@@ -37,7 +37,7 @@ This Github repository is meant to record the process of development of the data
             An overview of the contents of the database, by published source and original archival source.
 
 1. [NER Resources](NER Resources.md)
-            Resources for replicating, learnign from or expanding on the NER employed in this project.
+            Resources for replicating, learning from or expanding on the NER employed in this project.
 
 
 **Proprietary Notice**
