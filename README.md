@@ -1,11 +1,6 @@
 # Art Markets of Seville Database
 
 ---
-
-<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
             
 **Background**
 
@@ -32,6 +27,8 @@ The database is not only a repository of documents, but meant to dissect the inf
 **GitHub Repository**
 
 This Github repository is meant to record the process of development of the database, including code used, training sets, output and further resources.
+
+[Document Viewer](DocumentViewer.md)
 
 **Proprietary Notice**
 
