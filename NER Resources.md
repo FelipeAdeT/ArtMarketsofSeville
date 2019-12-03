@@ -6,7 +6,7 @@ Statistical models for NER are trained on corpora of texts. Those readily availa
 
 In this project, we have used [Spacy's medium Spanish Model](http://www.spacy.io) to analyze historical Spanish texts, and we have experimented with several ways to improve its predictions. We have tried to improve accuracy and recall on existing tags (person, location, organization) and new tags (date, monetary amount, object) which whe have seen used in the more developed English models.
 
-We have included a series of Jupyter notebooks documenting our process in this repository. They assume you have a basic knowledge of the Spacy library (if not, learn [here](https://spacy.io/usage/spacy-101)).
+We have included a series of Jupyter notebooks documenting our process in this repository, accessible via the links below. They assume you have a basic knowledge of the Spacy library (if not, learn [here](https://spacy.io/usage/spacy-101)).
 
 **Index**
 
