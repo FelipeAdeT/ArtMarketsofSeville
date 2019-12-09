@@ -20,4 +20,4 @@ We have included a series of Jupyter notebooks documenting our process in this r
     
     -[**Evaluating Spacy NER K-fold Cross Validation**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Evaluating%20Spacy%20NER%20K-fold%20Cross%20Validation%20(Trained%20Model%20with%20and%20without%20normalized%20dictionary).ipynb)
     
-1. [Exporting and saving the data](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Saving%20NER%20 output%20to%20file-Copy1.ipynb)
+1. [**Exporting and saving the data**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Saving%20NER%20 output%20to%20file-Copy1.ipynb)
