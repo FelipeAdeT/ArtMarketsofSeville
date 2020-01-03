@@ -4,7 +4,7 @@
             
 **Background**
 
-During the 16th and 17th centuries, Seville, Spain was the locus of the world's largest trade flows. From 1503 to 1717, it housed the Casa de Contratación, the institution that centralized trade between Europe and the Spanish colonies in the Americas. As a result, the city ballooned in wealth and population; with the specialization in trade, Sevillian artists started exporting their works abroad. 
+During the 16th and 17th centuries, Seville, Spain was the locus of the world's largest trade flows. From 1503 to 1717, it housed the Casa de Contratación, the institution that centralized trade between Europe and the Spanish colonies in the Americas. As a result, the city ballooned in wealth and population; with the city's specialization in trade, Sevillian artists started exporting their works abroad. 
 
 **Uses**
 
@@ -39,7 +39,8 @@ This Github repository is meant to record the process of development of the data
 1. [Research Completeness](Research Completeness.html)
             An overview of the texts included in the database, by published source and original archival source.
 
-1. [Tags - Summary Visualizations](Tag Analysis.html)
+1. [Tags : Summary Visualizations](Tag Analysis.html)
+            Summary visualizations to describe the strings identified as entities (people, locations, organizations, dates, monetary amounts and objects).
 
 1. [NER Resources](NER Resources.md)
             Resources for replicating, learning from or expanding on the NER employed in this project.
