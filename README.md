@@ -8,21 +8,24 @@ During the 16th and 17th centuries, Seville, Spain was the locus of the world's 
 
 **Uses**
 
-This github repository is meant as a standalone project, but also as a resource for those conducting similar Humanities initiatives. If you are working on archival documentation in historical languages and ways of extracting their information computationally through NER, this provides a model and resources that can be tailored to your needs. It provides some directly usable resources for documents in early modern Spanish, created for a database comprised primarily of notarial and parish documents from the city of Seville.
+This github repository is meant as a standalone project, but also as a resource for those conducting similar Digital Humanities initiatives. If you are working on computational ways of extracting information from archival documentation in historical languages through NER, this provides a model and resources that can be tailored to your needs. It provides some  usable resources for documents in early modern Spanish, created for a database comprised primarily of notarial and parish documents from the city of Seville.
 
 **Data Source**
 
-This database compiles information from 20 volumes of sources published throughout the 19th and 20th centuries in Seville. They compile data from several Sevillian archives on the activities of various local painters, sculptors, gilders, stonemasons, and architects, among other less common occupations. The books were OCR scanned, corrected for mistakes, and then divided into texts using OpenRefine. Texts are stored as individual records within the database and usually (though not always) refer to a single archival document, either in transcription or summarized form. These texts are often accompanied by footnotes and comments that are included as an attribute of the text in the database. Where possible, we have included the archival reference to the original source, to the extent provided by the researchers that edited the published volumes.
+This database includes information taken from 20 volumes published throughout the 19th and 20th centuries. These books compiled documents from several Sevillian archives on the activities of various local painters, sculptors, gilders, stonemasons, and architects, among other less common occupations. The books were OCR scanned, corrected for mistakes, and then divided into texts using OpenRefine. 
+
+Texts are stored as individual records within the database and usually (though not always) refer to a single archival document, either in transcription or summarized form. These texts are often accompanied by footnotes and comments that are included as an attribute of the text in the database. Where possible, we have included the archival reference to the original source, to the extent provided by the researchers that edited the published volumes.
 
 **Data Gathering**
 
-The database is not only a repository of documents, but meant to dissect the information these documents contain. Different tables have been developed to register the actors, locations, objects, dates and money amounts present in any document, as well as the attributes of the document itself (archival reference, bibliographic source, footnotes and comments). Information on entities was extracted using the Named Entity Recognizer made available by Spacy (the medium Spanish model, es_core_news_ml). This model was trained on a set of training data tagged manually on DataTurks.com, improving the results, and the results were later revised.
+The database is not only a repository of documents, but meant as a repository of the information these documents contain. Different tables have been developed to register the actors, locations, objects, dates and money amounts present in each document, as well as the attributes of the document itself (archival reference, bibliographic source, footnotes and comments). Information on entities was extracted using the Named Entity Recognizer made available by Spacy (the medium Spanish model, es_core_news_ml). This model was retrained on a set of training data, improving the model to work more efficiently for our data. This training data was tagged manually on DataTurks.com. 
 
 **Basic Facts**
 1. Thus far, the database incorporates 8,629 texts extracted from published archival documentation from Seville.
 1. Data encompasses the 15th to the 19th centuries, with the highest volume of data focused on the 16th and 17th centuries.
 1. These texts are transcriptions or summaries that usually refer to one archival document, but occasionally summarize several.
-1. The texts have comments from the editors that provide additional information and occasionally refer to further archival documents than the one described in the main body.
+1. Analysis of these texts has led to the tagging of 34,549 strings as entities.
+1. A future stage in this project will map these strings onto unique actors, locations and organizations to enable further analysis.
 
 **GitHub Repository**
 
@@ -34,7 +37,9 @@ This Github repository is meant to record the process of development of the data
             A tool to search for strings within documents contained in the database.
 
 1. [Research Completeness](Research Completeness.html)
-            An overview of the contents of the database, by published source and original archival source.
+            An overview of the texts included in the database, by published source and original archival source.
+
+1. [Tags - Summary Visualizations](Tag Analysis.html)
 
 1. [NER Resources](NER Resources.md)
             Resources for replicating, learning from or expanding on the NER employed in this project.
