@@ -10,7 +10,7 @@ We have included a series of Jupyter notebooks documenting our process in this r
 
 **Index**
 
-1. [**Training Spacy's Model**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/TrainingSpacy's%20NER.ipynb) guides you through the process of training the model, and performs a simple evaluation of the results.
+1. [**Training Spacy's Model**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Training%20Spacy's%20NER.ipynb) guides you through the process of training the model, and performs a simple evaluation of the results.
 1. [**Adding a Custom Component to the Pipeline**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Adding%20a%20Custom%20Pipeline%20Component%20on%20Spacy%20(normalized%20dictionary).ipynb) explores the addition of a new pipeline component, here a normalized dictionary that modifies the "norm" attribute of each token, thus modifying the vector representation that the NER model is later trained with.
 1. **Evaluation notebooks** These notebooks explore different methods of evaluation of the training results, accounting for variations in the training and testing data by repeatedly training on different samples of the data.
     
@@ -18,4 +18,4 @@ We have included a series of Jupyter notebooks documenting our process in this r
     
     -[**Evaluating Spacy NER K-fold Cross Validation**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Evaluating%20Spacy%20NER%20K-fold%20Cross%20Validation%20(Trained%20Model%20with%20and%20without%20normalized%20dictionary).ipynb)
     
-1. [**Exporting and saving the data**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Saving%20NER%20 output%20to%20file-Copy1.ipynb)
+1. [**Exporting and saving the data**](https://github.com/FelipeAdeT/ArtMarketsofSeville/blob/master/Notebooks/Saving%20NER%20 output%20to%20file.ipynb)
