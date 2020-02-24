@@ -8,8 +8,6 @@ These notebooks each work through a phase of the NER process. Though they can be
 
 1. **Training Spacy's Model** guides you through the process of training the model, and performs a simple evaluation of the results.
 1. **Adding a Custom Component to the Pipeline** explores the addition of a new pipeline component, here a normalized dictionary that modifies the "norm" attribute of each token, thus modifying the vector representation that the NER model is later trained with.
-1. **Evaluation notebooks** These notebooks explore different methods of evaluation of the training results, accounting for variations in the training and testing data by repeatedly training on different samples of the data.
-    -**Evaluating Spacy NER Repeated Random Sub-Sampling**
-    -**Evaluating Spacy NER K-fold Cross Validation**
+1. **Evaluation notebooks** These notebooks explore different methods of evaluation of the training results, accounting for variations in the training and testing data by repeatedly training on different samples of the data (**Evaluating Spacy NER Repeated Random Sub-Sampling**, **Evaluating Spacy NER K-fold Cross Validation**).
 1. **Saving NER Output to File** Once you have a set of tags, this notebook documents the way we accessed and exported these tags for upload into our database.
 1. Other notebooks document intermediate steps necessary for the notebooks above (**Preparing a Text File for DataTurks**, **Creating a Spelling Normalization Dictionary**, **Converting DataTurks Tagged Texts to Spacy Format**).
