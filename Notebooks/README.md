@@ -12,4 +12,4 @@ These notebooks each work through a phase of the NER process. Though they can be
     -**Evaluating Spacy NER Repeated Random Sub-Sampling**
     -**Evaluating Spacy NER K-fold Cross Validation**
 1. **Saving NER Output to File** Once you have a set of tags, this notebook documents the way we accessed and exported these tags for upload into our database.
-1. Other notebooks 
+1. Other notebooks document intermediate steps necessary for the notebooks above (**Preparing a Text File for DataTurks**, **Creating a Spelling Normalization Dictionary**, **Converting DataTurks Tagged Texts to Spacy Format**).
